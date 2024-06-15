@@ -6,6 +6,8 @@
 @import "screen-header.css";
 @import "friends.css";
 @import "user-components.css";
+@import "components/badge.css";
+
 
 @import "nav-bar.css";
 
@@ -55,4 +57,8 @@ color: rgb(0, 0, 0, 0.4);
     text-decoration: none;
     color:inherit ;
     font-size: 13px;
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }

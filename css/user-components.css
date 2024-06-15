@@ -56,3 +56,8 @@
     justify-content: space-between;
     color: rgb(0, 0, 0, 0.5);
 }
+
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+}
