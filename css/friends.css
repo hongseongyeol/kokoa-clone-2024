@@ -9,7 +9,7 @@
 }
 
 #friends-display-link i{
-    color: rgb(0, 0, 0, 0.3);
+    color: var(--color-gray);
 }
 
 .friends-screen{

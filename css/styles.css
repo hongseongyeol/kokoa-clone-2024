@@ -28,18 +28,18 @@ body{
     border: none;
     padding: 15px 0px;
     font-size: 18px;
-    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
     margin-bottom: 25px;
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input ::placeholder{
-color: rgb(0, 0, 0, 0.4);
+color: var(--color-gray);
 }
 
 #login-form input:focus{
