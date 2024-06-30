@@ -7,7 +7,9 @@
 @import "friends.css";
 @import "user-components.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 @import "find.css";
+@import "more.css";
 
 
 @import "nav-bar.css";
