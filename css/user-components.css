@@ -7,7 +7,7 @@
     color: var(--color-gray);
 }
 
-.user-component__column:first-child{
+.user-component__column:first-child {
     display: flex;
     align-items: center;
 }
@@ -60,4 +60,20 @@
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+}
+
+@keyframes rotatebadge {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(7px)
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.badge {
+    animation: rotatebadge 0.5s linear infinite;
 }
