@@ -22,17 +22,17 @@
 }
 
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: black;
     height: 11000vh;
 }
 
 #chat-screen .status-bar {
-    background-color: #abc1d1;
+    background-color: black;
     z-index: 2;
 }
 
 #chat-screen .alt-header {
-    background-color: #abc1d1;
+    background-color: black;
     position: sticky;
     top: 0px;
     width: 100%;
@@ -49,7 +49,7 @@
 
 .chat__timestamp {
     color: white;
-    background-color: #92a4b2;
+    background-color: #212121;
     padding: 15px;
     font-size: 14px;
     border-radius: 25px;

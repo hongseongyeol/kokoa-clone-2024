@@ -10,9 +10,11 @@
 }
 
 .icon-row__icon i{
+    color: white;
     font-size: 35px;
 }
 
 .icon-row__icon span{
+    color: white;
     margin-top: 18px;
 }

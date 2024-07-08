@@ -1,5 +1,6 @@
 .alt-header {
     padding: var(--horizontal-space);
+    color: white;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -7,6 +8,7 @@
 }
 
 .alt-header__title {
+    color: white;
     font-size: 32px;
     font-weight: 600;
 }

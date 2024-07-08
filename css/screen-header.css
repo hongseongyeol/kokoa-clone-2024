@@ -9,11 +9,13 @@
 }
 
 .screen-header__title{
+    color: white;
     font-size: 28px;
     font-weight: 600;
 }
 
 .screen-header__icons span{
+    color: white;
     margin-left: 25px;
     position: relative;
 }

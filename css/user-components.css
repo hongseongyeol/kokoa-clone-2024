@@ -4,7 +4,7 @@
 }
 
 .user-component__column{
-    color: var(--color-gray);
+    color: white;
 }
 
 .user-component__column:first-child {
@@ -20,13 +20,14 @@
 }
 
 .user-component__title{
+    color: white;
     font-weight: 600;
     font-size: 22px;
 }
 
 .user-component__subtitle{
     margin-top: 5px;
-    color: var(--color-gray);
+    color: white;
 }
 
 .user-component__avatar--xl{
@@ -54,7 +55,7 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: var(--color-gray);
+    color: white;
 }
 
 .user-component__time{
