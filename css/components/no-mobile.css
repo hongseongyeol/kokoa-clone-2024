@@ -3,12 +3,16 @@
     z-index: 99;
     height: 100vh;
     width: 100vw;
-    background-color: var(--yellow);
+    background-color: black;
     display: flex;
     top: 0;
     justify-content: center;
     align-items: center;
     font-size: 32px;
+}
+
+#no-mobile span {
+    color: white;
 }
 
 @media screen and (max-width:1000px){
